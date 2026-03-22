@@ -68,7 +68,7 @@ You can start the app using the `run.sh` script or run the backend and frontend 
    To run the frontend with Streamlit, use the following command:
 
    ```bash
-   uv run streamlit run backend/main.py
+   uv run streamlit run src/frontend/main.py
    ```
 
 3. **Using `run.sh`**:
