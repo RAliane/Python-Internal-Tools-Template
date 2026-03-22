@@ -33,7 +33,7 @@ This is a template for setting up an internal Python-based tool, featuring both 
 Make sure you have the following installed:
 
 - Python 3.8+  
-- pip (Python package manager)  
+- UV (Python package manager)  ```pip  install uv```
 - Nginx (if you plan to use the provided configuration)  
 
 ### Install Dependencies
