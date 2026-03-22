@@ -58,10 +58,10 @@ and your dependencies will be resolved automatically.
 You can start the app using the `run.sh` script or run the backend and frontend manually.
 
 1. **Backend (FastAPI)**:
-   To run the backend server, use the following command:
+   To run the backend server, use the following command to run your dev environement:
 
    ```bash
-   uv run fastapi
+   uv run fastapi dev
    ```
 
 2. **Frontend (Streamlit)**:
