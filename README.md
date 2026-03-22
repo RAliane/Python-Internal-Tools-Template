@@ -38,18 +38,18 @@ Make sure you have the following installed:
 
 ### Install Dependencies
 
-First, create a virtual environment and activate it:
+UV Package Manager will have all your dependencies preset and you just run:
 
 ```bash
-python -m venv venv
-source venv/bin/activate   # On Windows use `venv\Scripts\activate`
+uv sync
 ````
+and will install all your dependencies.
 
-Then, install the required dependencies:
-
-```bash
-pip install -r requirements.txt
+If you wanted to add another library, you'd run:
 ```
+uv add requests
+```
+and your dependencies will be resolved automatically.
 
 > **Note:** `uv.lock` is used for dependency management, and should be updated if you're modifying any dependencies.
 
