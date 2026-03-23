@@ -7,22 +7,32 @@ This is a template for setting up an internal Python-based tool, featuring both 
 ```
 
 .
-├── README.md           # Project overview
+├── README.md
 ├── config
-│   └── nginx.config    # Nginx configuration file
-├── main.py             # Main entry point for the app
-├── pyproject.toml      # Python dependencies and setup
-├── run.sh              # Shell script to run the app
+│   └── nginx.config
+├── containerfile.yml
+├── docker-compose.yml
+├── main.py
+├── pyproject.toml
+├── run.sh
 ├── src
-│   ├── backend
-│   │   ├── data        # Directory containing data files
-│   │   │   └── data.db # Example database file
-│   │   ├── logs        # Directory for log files
-│   │   │   └── logs.db # Example log file
-│   │   └── main.py     # Backend main script
-│   └── frontend
-│       └── main.py     # Frontend main script (Streamlit)
-└── uv.lock             # Lock file for project dependencies
+│   ├── backend
+│   │   ├── Modules
+│   │   │   ├── data
+│   │   │   │   └── data.db
+│   │   │   ├── logs
+│   │   │   │   └── logs.db
+│   │   │   ├── main
+│   │   │   │   └── main.py
+│   │   │   └── routes
+│   │   │       └── routes.py
+│   │   └── public
+│   │       └── main.py
+│   └── frontend
+│       └── main.py
+└── uv.lock
+
+11 directories, 14 files
 
 ````
 
